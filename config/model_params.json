@@ -1,0 +1,13 @@
+{
+  "_comment": "査定モデル v1.1（対数線形回帰）のパラメータ。docs/decisions.md D-40〜D-42 参照。",
+  "min_town_count": 10,
+  "_min_town_count_comment": "町名の効果を推定する最低件数（中古戸建て取引の件数）。満たさない町名は市区の効果で計算し confidence=low。",
+  "min_correction_count": 20,
+  "_min_correction_count_comment": "市区の中古戸建て取引がこれ未満なら価格を出さない（confidence=none）。",
+  "new_build_max_age": 1,
+  "_new_build_max_age_comment": "取引年 − 築年 がこの値以下の戸建て（新築）をモデルから除外する（D-29）。",
+  "input_clamp_percentiles": [1, 99],
+  "_input_clamp_percentiles_comment": "入力値（土地面積・延床・築年数）を学習データのこの範囲に収めてから計算する（回帰式の外挿を防ぐ）。",
+  "range_percentiles": { "normal": [25, 75], "wide": [10, 90] },
+  "rounding_yen": 100000
+}

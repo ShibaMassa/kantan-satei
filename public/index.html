@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>かんたん相場査定｜中古戸建て</title>
+  <meta name="description" content="中古戸建ての概算価格レンジを、公開されている取引データから試算します。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="sample-banner" class="sample-banner" hidden>
+    サンプルデータ：表示される町名・価格は架空の値です。実在の相場ではありません。
+  </div>
+
+  <header class="site-header">
+    <h1 id="tool-name">かんたん相場査定</h1>
+    <p class="lead">中古戸建ての価格の目安を、公開されている取引データから試算します。</p>
+  </header>
+
+  <main>
+    <p id="load-error" class="notice error" hidden>
+      ただいま準備中です。担当者による無料査定をご利用ください。
+    </p>
+
+    <form id="satei-form" novalidate hidden>
+      <ol class="progress" aria-label="入力ステップ">
+        <li data-step="1" aria-current="step">所在地</li>
+        <li data-step="2">築年</li>
+        <li data-step="3">広さ</li>
+      </ol>
+
+      <section class="step" data-step="1">
+        <h2>物件の所在地</h2>
+        <label for="city">市区 <span class="req">必須</span></label>
+        <select id="city" name="city" required>
+          <option value="">選択してください</option>
+        </select>
+        <label for="town">町名 <span class="req">必須</span></label>
+        <select id="town" name="town" required disabled>
+          <option value="">先に市区を選んでください</option>
+        </select>
+        <p class="hint">一覧にない場合は「わからない／一覧にない」を選んでください。市区全体のデータで試算します。</p>
+        <p class="field-error" data-error-for="1" hidden></p>
+        <div class="nav"><button type="button" class="btn primary" data-next>次へ</button></div>
+      </section>
+
+      <section class="step" data-step="2" hidden>
+        <h2>建物の築年</h2>
+        <p class="hint">だいたいの年で大丈夫です。</p>
+        <div class="row">
+          <label class="sr-only" for="era">年号</label>
+          <select id="era" name="era">
+            <option value="western">西暦</option>
+            <option value="reiwa">令和</option>
+            <option value="heisei">平成</option>
+            <option value="showa">昭和</option>
+          </select>
+          <label class="sr-only" for="build-year">年</label>
+          <input id="build-year" name="build_year" type="number" inputmode="numeric" min="1" placeholder="例：2005" required>
+          <span class="unit">年</span>
+        </div>
+        <p class="field-error" data-error-for="2" hidden></p>
+        <div class="nav">
+          <button type="button" class="btn" data-prev>戻る</button>
+          <button type="button" class="btn primary" data-next>次へ</button>
+        </div>
+      </section>
+
+      <section class="step" data-step="3" hidden>
+        <h2>広さなど <span class="opt">任意</span></h2>
+        <p class="hint">わからない項目は空欄のままで大丈夫です（その地域の標準的な値で試算します）。</p>
+        <label for="land-area">土地面積</label>
+        <div class="row">
+          <input id="land-area" name="land_area" type="number" inputmode="decimal" min="0" step="any">
+          <select id="land-unit" aria-label="土地面積の単位"><option value="sqm">㎡</option><option value="tsubo">坪</option></select>
+        </div>
+        <label for="floor-area">延床面積</label>
+        <div class="row">
+          <input id="floor-area" name="floor_area" type="number" inputmode="decimal" min="0" step="any">
+          <select id="floor-unit" aria-label="延床面積の単位"><option value="sqm">㎡</option><option value="tsubo">坪</option></select>
+        </div>
+        <label for="walk">最寄駅から徒歩</label>
+        <div class="row">
+          <input id="walk" name="walk" type="number" inputmode="numeric" min="0">
+          <span class="unit">分</span>
+        </div>
+        <p class="field-error" data-error-for="3" hidden></p>
+        <div class="nav">
+          <button type="button" class="btn" data-prev>戻る</button>
+          <button type="submit" class="btn primary">結果を見る</button>
+        </div>
+      </section>
+    </form>
+
+    <section id="result" class="result" hidden aria-live="polite">
+      <div id="result-price">
+        <p class="result-label">試算した価格の目安</p>
+        <p class="price-range"><span id="price-low"></span><span class="tilde">〜</span><span id="price-high"></span></p>
+        <p id="result-basis" class="basis"></p>
+        <p id="result-low-note" class="notice" hidden></p>
+        <ul id="result-defaults" class="defaults"></ul>
+      </div>
+      <div id="result-none" hidden>
+        <p class="none-message">このエリアは担当者が個別に査定します。</p>
+        <p class="hint">公開データの件数が少なく、データにもとづく目安をお出しできません。</p>
+      </div>
+
+      <div class="cta-box">
+        <p class="cta-lead">接道や土地の形で価格は大きく変わります。担当者が無料で精密査定します。</p>
+        <a id="cta" class="btn primary cta" href="#">無料の精密査定を依頼する</a>
+      </div>
+
+      <div class="caveats">
+        <h2>ご注意</h2>
+        <ul>
+          <li>この結果は公開データにもとづく参考価格であり、査定書や不動産鑑定評価ではありません。</li>
+          <li>接道状況、土地の形、リフォーム歴、再建築の可否などは反映されていません。</li>
+        </ul>
+      </div>
+      <button type="button" class="btn" id="restart">条件を変えて試算する</button>
+    </section>
+  </main>
+
+  <footer class="credit">
+    <p id="credit-api-notice"></p>
+    <p><span id="credit-source"></span>（<a id="credit-source-url" href="#" rel="noopener"></a>）</p>
+    <p id="credit-processed"></p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "_comment": "備考(Remarks)に以下のキーワードを含むレコードを除外する（部分一致）。applies_to で対象を [\"land\"] や [\"house\"] に限定できる（省略時は両方）。キーワードは Phase 1 で実データの備考の値と照合済み（docs/decisions.md D-33）。",
+  "remarks_keywords": [
+    { "keyword": "関係者間", "reason": "関係者間取引" },
+    { "keyword": "親族間",   "reason": "親族間取引" },
+    { "keyword": "隣地",     "reason": "隣地の購入" },
+    { "keyword": "調停",     "reason": "調停・競売等" },
+    { "keyword": "競売",     "reason": "調停・競売等" },
+    { "keyword": "瑕疵",     "reason": "瑕疵のある取引" },
+    { "keyword": "負担付",   "reason": "他の権利・負担付き" },
+    { "keyword": "私道",     "reason": "私道を含む取引" },
+    { "keyword": "代物弁済", "reason": "特殊な取引" },
+    { "keyword": "交換",     "reason": "特殊な取引" },
+    { "keyword": "その他事情", "reason": "その他事情有り" }
+  ],
+  "iqr_multiplier": 1.5
+}

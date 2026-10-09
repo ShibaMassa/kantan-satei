@@ -1,0 +1,704 @@
+[
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2023Q1",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "8000000",
+    "Area": "100",
+    "Period": "2023年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町B",
+    "TradePrice": "22090000",
+    "Area": "110",
+    "TotalFloorArea": "90",
+    "BuildingYear": "1995年",
+    "Period": "2023年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "31970000",
+    "Area": "124",
+    "TotalFloorArea": "110",
+    "BuildingYear": "2009年",
+    "Period": "2023年第1四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2023Q2",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "8181000",
+    "Area": "101",
+    "Period": "2023年第2四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "24140000",
+    "Area": "111",
+    "TotalFloorArea": "95",
+    "BuildingYear": "1996年",
+    "Period": "2023年第2四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町B",
+    "TradePrice": "18830000",
+    "Area": "125",
+    "TotalFloorArea": "90",
+    "BuildingYear": "2010年",
+    "Period": "2023年第2四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2023Q3",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "8364000",
+    "Area": "102",
+    "Period": "2023年第3四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "31580000",
+    "Area": "112",
+    "TotalFloorArea": "100",
+    "BuildingYear": "1997年",
+    "Period": "2023年第3四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "19310000",
+    "Area": "126",
+    "TotalFloorArea": "95",
+    "BuildingYear": "2011年",
+    "Period": "2023年第3四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2023Q4",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "8549000",
+    "Area": "103",
+    "Period": "2023年第4四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "21910000",
+    "Area": "113",
+    "TotalFloorArea": "105",
+    "BuildingYear": "1998年",
+    "Period": "2023年第4四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "29490000",
+    "Area": "127",
+    "TotalFloorArea": "100",
+    "BuildingYear": "2012年",
+    "Period": "2023年第4四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2024Q1",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "8736000",
+    "Area": "104",
+    "Period": "2024年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "19210000",
+    "Area": "114",
+    "TotalFloorArea": "110",
+    "BuildingYear": "1999年",
+    "Period": "2024年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "22060000",
+    "Area": "128",
+    "TotalFloorArea": "105",
+    "BuildingYear": "2013年",
+    "Period": "2024年第1四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2024Q2",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "8925000",
+    "Area": "105",
+    "Period": "2024年第2四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町B",
+    "TradePrice": "28000000",
+    "Area": "115",
+    "TotalFloorArea": "90",
+    "BuildingYear": "2000年",
+    "Period": "2024年第2四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "27210000",
+    "Area": "129",
+    "TotalFloorArea": "110",
+    "BuildingYear": "2014年",
+    "Period": "2024年第2四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2024Q3",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "9116000",
+    "Area": "106",
+    "Period": "2024年第3四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "22340000",
+    "Area": "116",
+    "TotalFloorArea": "95",
+    "BuildingYear": "2001年",
+    "Period": "2024年第3四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町B",
+    "TradePrice": "24910000",
+    "Area": "130",
+    "TotalFloorArea": "90",
+    "BuildingYear": "1995年",
+    "Period": "2024年第3四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2024Q4",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "9309000",
+    "Area": "107",
+    "Period": "2024年第4四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "27440000",
+    "Area": "117",
+    "TotalFloorArea": "100",
+    "BuildingYear": "2002年",
+    "Period": "2024年第4四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "31830000",
+    "Area": "131",
+    "TotalFloorArea": "95",
+    "BuildingYear": "1996年",
+    "Period": "2024年第4四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2025Q1",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "9504000",
+    "Area": "108",
+    "Period": "2025年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "21060000",
+    "Area": "118",
+    "TotalFloorArea": "105",
+    "BuildingYear": "2003年",
+    "Period": "2025年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "18810000",
+    "Area": "132",
+    "TotalFloorArea": "100",
+    "BuildingYear": "1997年",
+    "Period": "2025年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "20000000",
+    "Area": "100",
+    "TotalFloorArea": "90",
+    "BuildingYear": "戦前",
+    "Period": "2025年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "900000000",
+    "Area": "2000㎡以上",
+    "Period": "2025年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "関係者間取引",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "5000000",
+    "Area": "100",
+    "Period": "2025年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "中古マンション等",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "30000000",
+    "Area": "70",
+    "Period": "2025年第1四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "",
+    "Area": "100",
+    "Period": "2025年第1四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2025Q2",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "9701000",
+    "Area": "109",
+    "Period": "2025年第2四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "19700000",
+    "Area": "119",
+    "TotalFloorArea": "110",
+    "BuildingYear": "2004年",
+    "Period": "2025年第2四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "29180000",
+    "Area": "133",
+    "TotalFloorArea": "105",
+    "BuildingYear": "1998年",
+    "Period": "2025年第2四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2025Q3",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "9900000",
+    "Area": "110",
+    "Period": "2025年第3四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町B",
+    "TradePrice": "28460000",
+    "Area": "120",
+    "TotalFloorArea": "90",
+    "BuildingYear": "2005年",
+    "Period": "2025年第3四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "19090000",
+    "Area": "134",
+    "TotalFloorArea": "110",
+    "BuildingYear": "1999年",
+    "Period": "2025年第3四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2025Q4",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "10101000",
+    "Area": "111",
+    "Period": "2025年第4四半期"
+   },
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "18380000",
+    "Area": "121",
+    "TotalFloorArea": "95",
+    "BuildingYear": "2006年",
+    "Period": "2025年第4四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2025Q4",
+  "price_classification": "02",
+  "records": [
+   {
+    "PriceCategory": "成約価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町B",
+    "TradePrice": "9360000",
+    "Area": "120",
+    "Period": "2025年第4四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2026Q1",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "23100000",
+    "Area": "122",
+    "TotalFloorArea": "100",
+    "BuildingYear": "2007年",
+    "Period": "2026年第1四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2026Q1",
+  "price_classification": "02",
+  "records": [
+   {
+    "PriceCategory": "成約価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町B",
+    "TradePrice": "9360000",
+    "Area": "120",
+    "Period": "2026年第1四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2026Q2",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地と建物)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町A",
+    "TradePrice": "21320000",
+    "Area": "123",
+    "TotalFloorArea": "105",
+    "BuildingYear": "2008年",
+    "Period": "2026年第2四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99901",
+  "quarter": "2026Q2",
+  "price_classification": "02",
+  "records": [
+   {
+    "PriceCategory": "成約価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99901",
+    "DistrictName": "テスト町B",
+    "TradePrice": "9360000",
+    "Area": "120",
+    "Period": "2026年第2四半期"
+   }
+  ]
+ },
+ {
+  "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+  "city": "99902",
+  "quarter": "2026Q2",
+  "price_classification": "01",
+  "records": [
+   {
+    "PriceCategory": "不動産取引価格情報",
+    "Prefecture": "テスト県",
+    "Remarks": "",
+    "Type": "宅地(土地)",
+    "MunicipalityCode": "99902",
+    "DistrictName": "テスト町Z",
+    "TradePrice": "5000000",
+    "Area": "100",
+    "Period": "2026年第2四半期"
+   }
+  ]
+ }
+]

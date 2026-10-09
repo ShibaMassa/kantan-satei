@@ -1,0 +1,60 @@
+{
+ "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止",
+ "coef": {
+  "log_land": 0.5,
+  "log_floor": 0.4,
+  "age10": -0.3,
+  "age10_sq": 0.02,
+  "time": 0.05
+ },
+ "cases": [
+  {
+   "alpha": 12.0,
+   "land_area": 120,
+   "floor_area": 100,
+   "age": 0,
+   "time": 0,
+   "expected_log": 16.235813945786262
+  },
+  {
+   "alpha": 12.0,
+   "land_area": 120,
+   "floor_area": 100,
+   "age": 15,
+   "time": 0,
+   "expected_log": 15.83081394578626
+  },
+  {
+   "alpha": 13.5,
+   "land_area": 90.5,
+   "floor_area": 85.2,
+   "age": 29,
+   "time": -1.25,
+   "expected_log": 16.766375498887047
+  },
+  {
+   "alpha": 11.0,
+   "land_area": 200,
+   "floor_area": 120,
+   "age": 30,
+   "time": 0.5,
+   "expected_log": 14.869155380386836
+  },
+  {
+   "alpha": 11.0,
+   "land_area": 200,
+   "floor_area": 120,
+   "age": 60,
+   "time": 0,
+   "expected_log": 14.484155380386836
+  },
+  {
+   "alpha": 12.5,
+   "land_area": 100,
+   "floor_area": 100,
+   "age": 2,
+   "time": -3,
+   "expected_log": 16.435453167389284
+  }
+ ]
+}

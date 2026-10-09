@@ -1,0 +1,13 @@
+{
+  "_comment": "対象エリア。enabled を切り替えるだけで追加・削除できる。code は市区町村コード（5桁）。",
+  "areas": [
+    { "code": "12101", "name": "千葉市中央区",   "enabled": true },
+    { "code": "12102", "name": "千葉市花見川区", "enabled": true },
+    { "code": "12103", "name": "千葉市稲毛区",   "enabled": false, "note": "未決：プロモーション戦略課が判断（初期値：無効）" },
+    { "code": "12106", "name": "千葉市美浜区",   "enabled": true },
+    { "code": "12204", "name": "船橋市",         "enabled": true },
+    { "code": "12207", "name": "松戸市",         "enabled": true },
+    { "code": "12217", "name": "柏市",           "enabled": true },
+    { "code": "12220", "name": "流山市",         "enabled": true }
+  ]
+}

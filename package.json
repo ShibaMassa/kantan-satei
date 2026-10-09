@@ -1,0 +1,11 @@
+{
+  "name": "kantan-satei",
+  "private": true,
+  "type": "module",
+  "description": "中古戸建て かんたん相場査定（静的サイト）",
+  "scripts": {
+    "test": "node --test tests/js/",
+    "serve": "python3 -m http.server 8080 --directory public"
+  },
+  "engines": { "node": ">=18" }
+}

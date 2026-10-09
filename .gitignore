@@ -1,0 +1,27 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# raw API data (never commit / never publish)
+data/raw/
+data/interim/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# node
+node_modules/
+
+# os
+.DS_Store
+
+# 自社の成約データなど（個人情報を含みうるのでコミットしない）
+data/*.csv
+data/own/
+
+# Vercel のプロジェクト紐付け情報（ローカル専用）
+.vercel/

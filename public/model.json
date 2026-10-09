@@ -1,0 +1,2795 @@
+{
+ "schema_version": 2,
+ "is_sample": false,
+ "generated_at": "2026-10-09",
+ "data_period": {
+  "from": "2021Q1",
+  "to": "2026Q1"
+ },
+ "params": {
+  "coef": {
+   "log_land": 0.588051,
+   "log_floor": 0.444773,
+   "age10": -0.314347,
+   "age10_sq": 0.022663,
+   "time": 0.046465
+  },
+  "clamp": {
+   "land_area": [
+    50.0,
+    1200.0
+   ],
+   "floor_area": [
+    50.0,
+    1300.0
+   ],
+   "age": [
+    2,
+    58
+   ]
+  },
+  "range_percentiles": {
+   "normal": [
+    25,
+    75
+   ],
+   "wide": [
+    10,
+    90
+   ]
+  },
+  "rounding_yen": 100000
+ },
+ "cities": {
+  "12101": {
+   "name": "千葉市中央区",
+   "available": true,
+   "alpha": 12.783123,
+   "count": 869,
+   "default_land_area": 155.0,
+   "default_floor_area": 115.0,
+   "correction_town": {
+    "count": 726,
+    "p10": 0.6558,
+    "p25": 0.8311,
+    "p50": 1.0206,
+    "p75": 1.2041,
+    "p90": 1.4442
+   },
+   "correction_city": {
+    "count": 869,
+    "p10": 0.5307,
+    "p25": 0.7057,
+    "p50": 0.9826,
+    "p75": 1.3777,
+    "p90": 1.9282
+   },
+   "towns": {
+    "中央": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "亀井町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "亀岡町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "亥鼻": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "仁戸名町": {
+     "alpha": 12.309146,
+     "count": 44,
+     "default_land_area": 142.5,
+     "default_floor_area": 105.0
+    },
+    "今井": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "今井町": {
+     "alpha": 12.747855,
+     "count": 11,
+     "default_land_area": 205.0,
+     "default_floor_area": 160.0
+    },
+    "出洲港": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "千葉寺町": {
+     "alpha": 12.873942,
+     "count": 24,
+     "default_land_area": 215.0,
+     "default_floor_area": 142.5
+    },
+    "千葉港": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "南生実町": {
+     "alpha": 12.417963,
+     "count": 17,
+     "default_land_area": 140.0,
+     "default_floor_area": 115.0
+    },
+    "南町": {
+     "alpha": 13.33177,
+     "count": 13,
+     "default_land_area": 320.0,
+     "default_floor_area": 270.0
+    },
+    "問屋町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "塩田町": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大巌寺町": {
+     "alpha": 12.274612,
+     "count": 20,
+     "default_land_area": 110.0,
+     "default_floor_area": 90.0
+    },
+    "大森町": {
+     "alpha": 12.369853,
+     "count": 35,
+     "default_land_area": 150.0,
+     "default_floor_area": 105.0
+    },
+    "宮崎": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "宮崎町": {
+     "alpha": 12.783053,
+     "count": 40,
+     "default_land_area": 147.5,
+     "default_floor_area": 110.0
+    },
+    "富士見": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "寒川町": {
+     "alpha": 12.808635,
+     "count": 18,
+     "default_land_area": 145.0,
+     "default_floor_area": 110.0
+    },
+    "川戸町": {
+     "alpha": 12.193208,
+     "count": 17,
+     "default_land_area": 150.0,
+     "default_floor_area": 100.0
+    },
+    "市場町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "弁天": {
+     "alpha": 13.577967,
+     "count": 18,
+     "default_land_area": 185.0,
+     "default_floor_area": 157.5
+    },
+    "新千葉": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "新宿": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "新田町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "旭町": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "星久喜町": {
+     "alpha": 12.39571,
+     "count": 30,
+     "default_land_area": 152.5,
+     "default_floor_area": 100.0
+    },
+    "春日": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "末広": {
+     "alpha": 12.979088,
+     "count": 33,
+     "default_land_area": 150.0,
+     "default_floor_area": 145.0
+    },
+    "本町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "村田町": {
+     "alpha": 12.531858,
+     "count": 25,
+     "default_land_area": 150.0,
+     "default_floor_area": 105.0
+    },
+    "東千葉": {
+     "alpha": 13.018604,
+     "count": 18,
+     "default_land_area": 152.5,
+     "default_floor_area": 107.5
+    },
+    "東本町": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "松ケ丘町": {
+     "alpha": 12.52456,
+     "count": 17,
+     "default_land_area": 135.0,
+     "default_floor_area": 110.0
+    },
+    "松波": {
+     "alpha": 13.330575,
+     "count": 16,
+     "default_land_area": 150.0,
+     "default_floor_area": 230.0
+    },
+    "栄町": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "椿森": {
+     "alpha": 13.128183,
+     "count": 28,
+     "default_land_area": 150.0,
+     "default_floor_area": 127.5
+    },
+    "汐見丘町": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "浜野町": {
+     "alpha": 12.417382,
+     "count": 25,
+     "default_land_area": 160.0,
+     "default_floor_area": 105.0
+    },
+    "港町": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "生実町": {
+     "alpha": 12.394033,
+     "count": 37,
+     "default_land_area": 160.0,
+     "default_floor_area": 100.0
+    },
+    "登戸": {
+     "alpha": 13.420245,
+     "count": 28,
+     "default_land_area": 175.0,
+     "default_floor_area": 135.0
+    },
+    "白旗": {
+     "alpha": 12.727585,
+     "count": 14,
+     "default_land_area": 167.5,
+     "default_floor_area": 112.5
+    },
+    "矢作町": {
+     "alpha": 12.476745,
+     "count": 25,
+     "default_land_area": 175.0,
+     "default_floor_area": 115.0
+    },
+    "祐光": {
+     "alpha": 12.92535,
+     "count": 15,
+     "default_land_area": 140.0,
+     "default_floor_area": 140.0
+    },
+    "神明町": {
+     "alpha": 12.932025,
+     "count": 10,
+     "default_land_area": 162.5,
+     "default_floor_area": 132.5
+    },
+    "稲荷町": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "花輪町": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "若草": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "葛城": {
+     "alpha": 12.72259,
+     "count": 15,
+     "default_land_area": 145.0,
+     "default_floor_area": 110.0
+    },
+    "蘇我": {
+     "alpha": 12.730852,
+     "count": 47,
+     "default_land_area": 155.0,
+     "default_floor_area": 110.0
+    },
+    "要町": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "赤井町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "道場北": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "道場南": {
+     "alpha": 12.782663,
+     "count": 13,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    },
+    "都町": {
+     "alpha": 12.526636,
+     "count": 36,
+     "default_land_area": 165.0,
+     "default_floor_area": 120.0
+    },
+    "長洲": {
+     "alpha": 13.503405,
+     "count": 11,
+     "default_land_area": 165.0,
+     "default_floor_area": 270.0
+    },
+    "院内": {
+     "alpha": 13.280922,
+     "count": 10,
+     "default_land_area": 110.0,
+     "default_floor_area": 187.5
+    },
+    "青葉町": {
+     "alpha": 13.061958,
+     "count": 16,
+     "default_land_area": 205.0,
+     "default_floor_area": 142.5
+    },
+    "鵜の森町": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "鶴沢町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "12102": {
+   "name": "千葉市花見川区",
+   "available": true,
+   "alpha": 12.674524,
+   "count": 745,
+   "default_land_area": 150.0,
+   "default_floor_area": 105.0,
+   "correction_town": {
+    "count": 723,
+    "p10": 0.6678,
+    "p25": 0.8413,
+    "p50": 1.0138,
+    "p75": 1.2351,
+    "p90": 1.4825
+   },
+   "correction_city": {
+    "count": 745,
+    "p10": 0.5087,
+    "p25": 0.6891,
+    "p50": 1.0184,
+    "p75": 1.4586,
+    "p90": 1.9067
+   },
+   "towns": {
+    "こてはし台": {
+     "alpha": 12.130617,
+     "count": 67,
+     "default_land_area": 125.0,
+     "default_floor_area": 90.0
+    },
+    "さつきが丘": {
+     "alpha": 12.596228,
+     "count": 18,
+     "default_land_area": 170.0,
+     "default_floor_area": 105.0
+    },
+    "み春野": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "三角町": {
+     "alpha": 12.179214,
+     "count": 14,
+     "default_land_area": 137.5,
+     "default_floor_area": 107.5
+    },
+    "作新台": {
+     "alpha": 12.492605,
+     "count": 50,
+     "default_land_area": 140.0,
+     "default_floor_area": 105.0
+    },
+    "千種町": {
+     "alpha": 12.142347,
+     "count": 45,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "南花園": {
+     "alpha": 12.970985,
+     "count": 31,
+     "default_land_area": 155.0,
+     "default_floor_area": 115.0
+    },
+    "大日町": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "天戸町": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "宮野木台": {
+     "alpha": 12.545945,
+     "count": 16,
+     "default_land_area": 172.5,
+     "default_floor_area": 105.0
+    },
+    "幕張本郷": {
+     "alpha": 13.295502,
+     "count": 60,
+     "default_land_area": 267.5,
+     "default_floor_area": 225.0
+    },
+    "幕張町": {
+     "alpha": 13.112767,
+     "count": 69,
+     "default_land_area": 155.0,
+     "default_floor_area": 120.0
+    },
+    "朝日ケ丘": {
+     "alpha": 12.758752,
+     "count": 45,
+     "default_land_area": 150.0,
+     "default_floor_area": 110.0
+    },
+    "朝日ケ丘町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "柏井": {
+     "alpha": 12.443949,
+     "count": 31,
+     "default_land_area": 145.0,
+     "default_floor_area": 100.0
+    },
+    "柏井町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "検見川町": {
+     "alpha": 13.032219,
+     "count": 59,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "横戸台": {
+     "alpha": 12.138365,
+     "count": 11,
+     "default_land_area": 200.0,
+     "default_floor_area": 120.0
+    },
+    "横戸町": {
+     "alpha": 12.38903,
+     "count": 26,
+     "default_land_area": 130.0,
+     "default_floor_area": 100.0
+    },
+    "武石町": {
+     "alpha": 12.981817,
+     "count": 12,
+     "default_land_area": 157.5,
+     "default_floor_area": 112.5
+    },
+    "浪花町": {
+     "alpha": 12.823105,
+     "count": 24,
+     "default_land_area": 125.0,
+     "default_floor_area": 105.0
+    },
+    "犢橋町": {
+     "alpha": 12.153895,
+     "count": 17,
+     "default_land_area": 155.0,
+     "default_floor_area": 115.0
+    },
+    "瑞穂": {
+     "alpha": 12.958688,
+     "count": 15,
+     "default_land_area": 155.0,
+     "default_floor_area": 125.0
+    },
+    "畑町": {
+     "alpha": 12.565632,
+     "count": 24,
+     "default_land_area": 162.5,
+     "default_floor_area": 112.5
+    },
+    "花園": {
+     "alpha": 13.235179,
+     "count": 24,
+     "default_land_area": 160.0,
+     "default_floor_area": 125.0
+    },
+    "花園町": {
+     "alpha": 13.026106,
+     "count": 19,
+     "default_land_area": 140.0,
+     "default_floor_area": 110.0
+    },
+    "長作台": {
+     "alpha": 12.267865,
+     "count": 13,
+     "default_land_area": 120.0,
+     "default_floor_area": 90.0
+    },
+    "長作町": {
+     "alpha": 12.485613,
+     "count": 33,
+     "default_land_area": 145.0,
+     "default_floor_area": 100.0
+    }
+   }
+  },
+  "12106": {
+   "name": "千葉市美浜区",
+   "available": true,
+   "alpha": 13.143208,
+   "count": 177,
+   "default_land_area": 160.0,
+   "default_floor_area": 110.0,
+   "correction_town": {
+    "count": 169,
+    "p10": 0.8048,
+    "p25": 0.894,
+    "p50": 0.9741,
+    "p75": 1.0838,
+    "p90": 1.2772
+   },
+   "correction_city": {
+    "count": 177,
+    "p10": 0.8026,
+    "p25": 0.8708,
+    "p50": 0.9483,
+    "p75": 1.0968,
+    "p90": 1.3918
+   },
+   "towns": {
+    "幕張西": {
+     "alpha": 13.159368,
+     "count": 14,
+     "default_land_area": 177.5,
+     "default_floor_area": 115.0
+    },
+    "幸町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "新港": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "真砂": {
+     "alpha": 13.108581,
+     "count": 35,
+     "default_land_area": 190.0,
+     "default_floor_area": 135.0
+    },
+    "磯辺": {
+     "alpha": 13.16609,
+     "count": 48,
+     "default_land_area": 195.0,
+     "default_floor_area": 127.5
+    },
+    "稲毛海岸": {
+     "alpha": 13.076575,
+     "count": 38,
+     "default_land_area": 125.0,
+     "default_floor_area": 102.5
+    },
+    "高洲": {
+     "alpha": 13.070678,
+     "count": 11,
+     "default_land_area": 125.0,
+     "default_floor_area": 110.0
+    },
+    "高浜": {
+     "alpha": 13.266472,
+     "count": 23,
+     "default_land_area": 180.0,
+     "default_floor_area": 100.0
+    }
+   }
+  },
+  "12204": {
+   "name": "船橋市",
+   "available": true,
+   "alpha": 12.816786,
+   "count": 2480,
+   "default_land_area": 135.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 2373,
+    "p10": 0.7046,
+    "p25": 0.844,
+    "p50": 1.0043,
+    "p75": 1.1893,
+    "p90": 1.4068
+   },
+   "correction_city": {
+    "count": 2480,
+    "p10": 0.5801,
+    "p25": 0.7425,
+    "p50": 0.9635,
+    "p75": 1.3479,
+    "p90": 1.7444
+   },
+   "towns": {
+    "みやぎ台": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "七林町": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "三咲": {
+     "alpha": 12.544704,
+     "count": 52,
+     "default_land_area": 165.0,
+     "default_floor_area": 105.0
+    },
+    "三山": {
+     "alpha": 12.582924,
+     "count": 114,
+     "default_land_area": 122.5,
+     "default_floor_area": 105.0
+    },
+    "上山町": {
+     "alpha": 12.747969,
+     "count": 47,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "中野木": {
+     "alpha": 12.96188,
+     "count": 25,
+     "default_land_area": 110.0,
+     "default_floor_area": 105.0
+    },
+    "丸山": {
+     "alpha": 12.52338,
+     "count": 61,
+     "default_land_area": 140.0,
+     "default_floor_area": 105.0
+    },
+    "二和東": {
+     "alpha": 12.646559,
+     "count": 42,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "二和西": {
+     "alpha": 12.482151,
+     "count": 20,
+     "default_land_area": 157.5,
+     "default_floor_area": 100.0
+    },
+    "二子町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "二宮": {
+     "alpha": 12.688997,
+     "count": 30,
+     "default_land_area": 112.5,
+     "default_floor_area": 100.0
+    },
+    "八木が谷": {
+     "alpha": 12.31386,
+     "count": 28,
+     "default_land_area": 147.5,
+     "default_floor_area": 102.5
+    },
+    "前原東": {
+     "alpha": 13.096921,
+     "count": 72,
+     "default_land_area": 140.0,
+     "default_floor_area": 110.0
+    },
+    "前原西": {
+     "alpha": 13.114465,
+     "count": 69,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "前貝塚町": {
+     "alpha": 12.800324,
+     "count": 47,
+     "default_land_area": 140.0,
+     "default_floor_area": 105.0
+    },
+    "北本町": {
+     "alpha": 13.203668,
+     "count": 24,
+     "default_land_area": 135.0,
+     "default_floor_area": 102.5
+    },
+    "南三咲": {
+     "alpha": 12.555141,
+     "count": 37,
+     "default_land_area": 130.0,
+     "default_floor_area": 100.0
+    },
+    "南本町": {
+     "alpha": 13.406786,
+     "count": 12,
+     "default_land_area": 120.0,
+     "default_floor_area": 97.5
+    },
+    "南海神": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "印内": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "古作": {
+     "alpha": 13.103383,
+     "count": 12,
+     "default_land_area": 152.5,
+     "default_floor_area": 107.5
+    },
+    "古和釜町": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "咲が丘": {
+     "alpha": 12.472616,
+     "count": 74,
+     "default_land_area": 130.0,
+     "default_floor_area": 95.0
+    },
+    "坪井東": {
+     "alpha": 13.068353,
+     "count": 31,
+     "default_land_area": 160.0,
+     "default_floor_area": 115.0
+    },
+    "坪井町": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "坪井西": {
+     "alpha": 12.766964,
+     "count": 13,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    },
+    "夏見": {
+     "alpha": 13.180587,
+     "count": 65,
+     "default_land_area": 110.0,
+     "default_floor_area": 105.0
+    },
+    "夏見台": {
+     "alpha": 12.896774,
+     "count": 41,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "夏見町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大穴北": {
+     "alpha": 12.304629,
+     "count": 53,
+     "default_land_area": 125.0,
+     "default_floor_area": 90.0
+    },
+    "大穴南": {
+     "alpha": 12.433562,
+     "count": 45,
+     "default_land_area": 125.0,
+     "default_floor_area": 100.0
+    },
+    "宮本": {
+     "alpha": 13.367221,
+     "count": 43,
+     "default_land_area": 125.0,
+     "default_floor_area": 105.0
+    },
+    "小室町": {
+     "alpha": 12.478043,
+     "count": 45,
+     "default_land_area": 150.0,
+     "default_floor_area": 105.0
+    },
+    "山手": {
+     "alpha": 13.116403,
+     "count": 16,
+     "default_land_area": 107.5,
+     "default_floor_area": 97.5
+    },
+    "山野町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "市場": {
+     "alpha": 13.163945,
+     "count": 17,
+     "default_land_area": 75.0,
+     "default_floor_area": 90.0
+    },
+    "新高根": {
+     "alpha": 12.507817,
+     "count": 57,
+     "default_land_area": 115.0,
+     "default_floor_area": 100.0
+    },
+    "日の出": {
+     "alpha": 12.771989,
+     "count": 15,
+     "default_land_area": 95.0,
+     "default_floor_area": 100.0
+    },
+    "旭町": {
+     "alpha": 12.682028,
+     "count": 50,
+     "default_land_area": 132.5,
+     "default_floor_area": 105.0
+    },
+    "本中山": {
+     "alpha": 13.425868,
+     "count": 30,
+     "default_land_area": 135.0,
+     "default_floor_area": 122.5
+    },
+    "本町": {
+     "alpha": 13.753741,
+     "count": 32,
+     "default_land_area": 122.5,
+     "default_floor_area": 145.0
+    },
+    "本郷町": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "東中山": {
+     "alpha": 13.213323,
+     "count": 28,
+     "default_land_area": 102.5,
+     "default_floor_area": 100.0
+    },
+    "東船橋": {
+     "alpha": 13.446813,
+     "count": 40,
+     "default_land_area": 165.0,
+     "default_floor_area": 112.5
+    },
+    "松が丘": {
+     "alpha": 12.520789,
+     "count": 93,
+     "default_land_area": 125.0,
+     "default_floor_area": 95.0
+    },
+    "栄町": {
+     "alpha": 12.914418,
+     "count": 29,
+     "default_land_area": 120.0,
+     "default_floor_area": 115.0
+    },
+    "楠が山町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "浜町": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "海神": {
+     "alpha": 13.251879,
+     "count": 66,
+     "default_land_area": 142.5,
+     "default_floor_area": 107.5
+    },
+    "海神町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "海神町南": {
+     "alpha": 13.287939,
+     "count": 13,
+     "default_land_area": 75.0,
+     "default_floor_area": 95.0
+    },
+    "海神町東": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "湊町": {
+     "alpha": 13.343061,
+     "count": 19,
+     "default_land_area": 135.0,
+     "default_floor_area": 125.0
+    },
+    "滝台": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "滝台町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "潮見町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "田喜野井": {
+     "alpha": 12.547924,
+     "count": 72,
+     "default_land_area": 130.0,
+     "default_floor_area": 100.0
+    },
+    "米ヶ崎町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "緑台": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "習志野": {
+     "alpha": 12.647926,
+     "count": 23,
+     "default_land_area": 140.0,
+     "default_floor_area": 105.0
+    },
+    "習志野台": {
+     "alpha": 13.07616,
+     "count": 101,
+     "default_land_area": 150.0,
+     "default_floor_area": 105.0
+    },
+    "芝山": {
+     "alpha": 12.727863,
+     "count": 83,
+     "default_land_area": 140.0,
+     "default_floor_area": 100.0
+    },
+    "薬円台": {
+     "alpha": 12.846001,
+     "count": 44,
+     "default_land_area": 130.0,
+     "default_floor_area": 102.5
+    },
+    "薬園台町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "藤原": {
+     "alpha": 12.789263,
+     "count": 75,
+     "default_land_area": 145.0,
+     "default_floor_area": 100.0
+    },
+    "行田": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "行田町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "西浦": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "西習志野": {
+     "alpha": 12.991997,
+     "count": 60,
+     "default_land_area": 145.0,
+     "default_floor_area": 105.0
+    },
+    "西船": {
+     "alpha": 13.217235,
+     "count": 29,
+     "default_land_area": 160.0,
+     "default_floor_area": 115.0
+    },
+    "豊富町": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "金堀町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "金杉": {
+     "alpha": 12.350492,
+     "count": 37,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    },
+    "鈴身町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "飯山満町": {
+     "alpha": 12.724995,
+     "count": 106,
+     "default_land_area": 125.0,
+     "default_floor_area": 100.0
+    },
+    "馬込町": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "馬込西": {
+     "alpha": 12.758227,
+     "count": 13,
+     "default_land_area": 140.0,
+     "default_floor_area": 95.0
+    },
+    "駿河台": {
+     "alpha": 12.961118,
+     "count": 38,
+     "default_land_area": 110.0,
+     "default_floor_area": 97.5
+    },
+    "高根台": {
+     "alpha": 12.941214,
+     "count": 37,
+     "default_land_area": 150.0,
+     "default_floor_area": 100.0
+    },
+    "高根町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "高瀬町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "高野台": {
+     "alpha": 12.316123,
+     "count": 48,
+     "default_land_area": 100.0,
+     "default_floor_area": 77.5
+    }
+   }
+  },
+  "12207": {
+   "name": "松戸市",
+   "available": true,
+   "alpha": 12.804576,
+   "count": 2295,
+   "default_land_area": 125.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 2107,
+    "p10": 0.7038,
+    "p25": 0.8633,
+    "p50": 1.0126,
+    "p75": 1.1796,
+    "p90": 1.3627
+   },
+   "correction_city": {
+    "count": 2295,
+    "p10": 0.6606,
+    "p25": 0.8174,
+    "p50": 0.9996,
+    "p75": 1.2155,
+    "p90": 1.4825
+   },
+   "towns": {
+    "三ケ月": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "三矢小台": {
+     "alpha": 12.789632,
+     "count": 23,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "上本郷": {
+     "alpha": 12.942736,
+     "count": 96,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "上矢切": {
+     "alpha": 12.743644,
+     "count": 26,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "下矢切": {
+     "alpha": 12.89205,
+     "count": 12,
+     "default_land_area": 130.0,
+     "default_floor_area": 110.0
+    },
+    "中和倉": {
+     "alpha": 12.729558,
+     "count": 29,
+     "default_land_area": 110.0,
+     "default_floor_area": 95.0
+    },
+    "中根": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "中根長津町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "中矢切": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "中金杉": {
+     "alpha": 12.678267,
+     "count": 20,
+     "default_land_area": 125.0,
+     "default_floor_area": 102.5
+    },
+    "串崎南町": {
+     "alpha": 12.782637,
+     "count": 18,
+     "default_land_area": 122.5,
+     "default_floor_area": 100.0
+    },
+    "串崎新田": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "主水新田": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "久保平賀": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "二ツ木": {
+     "alpha": 12.794492,
+     "count": 34,
+     "default_land_area": 120.0,
+     "default_floor_area": 105.0
+    },
+    "二ツ木二葉町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "二十世紀が丘中松町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "二十世紀が丘丸山町": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "二十世紀が丘戸山町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "二十世紀が丘柿の木町": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "二十世紀が丘梨元町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "二十世紀が丘美野里町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "二十世紀が丘萩町": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "五香": {
+     "alpha": 12.670456,
+     "count": 54,
+     "default_land_area": 125.0,
+     "default_floor_area": 102.5
+    },
+    "五香南": {
+     "alpha": 12.795909,
+     "count": 35,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "五香西": {
+     "alpha": 12.685623,
+     "count": 51,
+     "default_land_area": 120.0,
+     "default_floor_area": 95.0
+    },
+    "仲井町": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "八ケ崎": {
+     "alpha": 12.706362,
+     "count": 103,
+     "default_land_area": 130.0,
+     "default_floor_area": 100.0
+    },
+    "八ケ崎緑町": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "六実": {
+     "alpha": 12.545691,
+     "count": 42,
+     "default_land_area": 140.0,
+     "default_floor_area": 112.5
+    },
+    "六高台": {
+     "alpha": 12.612436,
+     "count": 63,
+     "default_land_area": 140.0,
+     "default_floor_area": 110.0
+    },
+    "六高台西": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "北松戸": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "千駄堀": {
+     "alpha": 12.647716,
+     "count": 36,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "南花島": {
+     "alpha": 13.065823,
+     "count": 24,
+     "default_land_area": 132.5,
+     "default_floor_area": 102.5
+    },
+    "古ケ崎": {
+     "alpha": 12.743493,
+     "count": 84,
+     "default_land_area": 105.0,
+     "default_floor_area": 90.0
+    },
+    "和名ケ谷": {
+     "alpha": 12.655043,
+     "count": 25,
+     "default_land_area": 125.0,
+     "default_floor_area": 100.0
+    },
+    "大橋": {
+     "alpha": 12.645187,
+     "count": 14,
+     "default_land_area": 130.0,
+     "default_floor_area": 102.5
+    },
+    "大谷口": {
+     "alpha": 12.782534,
+     "count": 12,
+     "default_land_area": 125.0,
+     "default_floor_area": 100.0
+    },
+    "大金平": {
+     "alpha": 12.698826,
+     "count": 30,
+     "default_land_area": 120.0,
+     "default_floor_area": 97.5
+    },
+    "小山": {
+     "alpha": 12.703476,
+     "count": 19,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "小根本": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "小金": {
+     "alpha": 12.895242,
+     "count": 12,
+     "default_land_area": 110.0,
+     "default_floor_area": 102.5
+    },
+    "小金きよしケ丘": {
+     "alpha": 12.909682,
+     "count": 17,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "小金上総町": {
+     "alpha": 12.829325,
+     "count": 12,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "小金原": {
+     "alpha": 12.649309,
+     "count": 97,
+     "default_land_area": 145.0,
+     "default_floor_area": 105.0
+    },
+    "小金清志町": {
+     "alpha": 12.852756,
+     "count": 14,
+     "default_land_area": 112.5,
+     "default_floor_area": 100.0
+    },
+    "岩瀬": {
+     "alpha": 13.198155,
+     "count": 21,
+     "default_land_area": 120.0,
+     "default_floor_area": 115.0
+    },
+    "常盤平": {
+     "alpha": 12.956261,
+     "count": 53,
+     "default_land_area": 135.0,
+     "default_floor_area": 110.0
+    },
+    "常盤平双葉町": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "常盤平柳町": {
+     "alpha": 13.019878,
+     "count": 15,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "常盤平西窪町": {
+     "alpha": 12.936354,
+     "count": 18,
+     "default_land_area": 140.0,
+     "default_floor_area": 107.5
+    },
+    "常盤平陣屋前": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "平賀": {
+     "alpha": 12.573969,
+     "count": 15,
+     "default_land_area": 165.0,
+     "default_floor_area": 130.0
+    },
+    "幸田": {
+     "alpha": 12.611529,
+     "count": 12,
+     "default_land_area": 150.0,
+     "default_floor_area": 112.5
+    },
+    "幸谷": {
+     "alpha": 12.903185,
+     "count": 21,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    },
+    "新作": {
+     "alpha": 12.789859,
+     "count": 17,
+     "default_land_area": 145.0,
+     "default_floor_area": 105.0
+    },
+    "新松戸": {
+     "alpha": 13.086505,
+     "count": 93,
+     "default_land_area": 135.0,
+     "default_floor_area": 115.0
+    },
+    "新松戸北": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "新松戸南": {
+     "alpha": 12.957398,
+     "count": 30,
+     "default_land_area": 120.0,
+     "default_floor_area": 105.0
+    },
+    "新松戸東": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "日暮": {
+     "alpha": 12.865798,
+     "count": 33,
+     "default_land_area": 120.0,
+     "default_floor_area": 105.0
+    },
+    "東平賀": {
+     "alpha": 12.867466,
+     "count": 20,
+     "default_land_area": 120.0,
+     "default_floor_area": 107.5
+    },
+    "東松戸": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "松戸": {
+     "alpha": 13.075659,
+     "count": 49,
+     "default_land_area": 120.0,
+     "default_floor_area": 105.0
+    },
+    "松戸新田": {
+     "alpha": 12.82589,
+     "count": 67,
+     "default_land_area": 125.0,
+     "default_floor_area": 105.0
+    },
+    "松飛台": {
+     "alpha": 12.674117,
+     "count": 36,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "栄町": {
+     "alpha": 12.697096,
+     "count": 103,
+     "default_land_area": 85.0,
+     "default_floor_area": 80.0
+    },
+    "栄町西": {
+     "alpha": 12.496729,
+     "count": 50,
+     "default_land_area": 137.5,
+     "default_floor_area": 90.0
+    },
+    "栗ケ沢": {
+     "alpha": 12.420737,
+     "count": 10,
+     "default_land_area": 130.0,
+     "default_floor_area": 105.0
+    },
+    "栗山": {
+     "alpha": 12.920097,
+     "count": 11,
+     "default_land_area": 145.0,
+     "default_floor_area": 105.0
+    },
+    "根木内": {
+     "alpha": 12.587766,
+     "count": 31,
+     "default_land_area": 125.0,
+     "default_floor_area": 105.0
+    },
+    "根本": {
+     "alpha": 13.447023,
+     "count": 13,
+     "default_land_area": 105.0,
+     "default_floor_area": 145.0
+    },
+    "樋野口": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "横須賀": {
+     "alpha": 13.0196,
+     "count": 20,
+     "default_land_area": 122.5,
+     "default_floor_area": 102.5
+    },
+    "殿平賀": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "河原塚": {
+     "alpha": 12.761838,
+     "count": 32,
+     "default_land_area": 145.0,
+     "default_floor_area": 110.0
+    },
+    "牧の原": {
+     "alpha": 12.894128,
+     "count": 15,
+     "default_land_area": 130.0,
+     "default_floor_area": 110.0
+    },
+    "田中新田": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "秋山": {
+     "alpha": 12.897844,
+     "count": 24,
+     "default_land_area": 157.5,
+     "default_floor_area": 110.0
+    },
+    "稔台": {
+     "alpha": 12.871796,
+     "count": 55,
+     "default_land_area": 130.0,
+     "default_floor_area": 105.0
+    },
+    "竹ケ花": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "竹ケ花西町": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "紙敷": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "緑ケ丘": {
+     "alpha": 13.154705,
+     "count": 16,
+     "default_land_area": 157.5,
+     "default_floor_area": 147.5
+    },
+    "胡録台": {
+     "alpha": 12.924072,
+     "count": 27,
+     "default_land_area": 120.0,
+     "default_floor_area": 95.0
+    },
+    "西馬橋": {
+     "alpha": 12.729118,
+     "count": 79,
+     "default_land_area": 95.0,
+     "default_floor_area": 85.0
+    },
+    "西馬橋幸町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "西馬橋広手町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "西馬橋相川町": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "西馬橋蔵元町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "金ケ作": {
+     "alpha": 12.635984,
+     "count": 25,
+     "default_land_area": 125.0,
+     "default_floor_area": 110.0
+    },
+    "馬橋": {
+     "alpha": 12.950877,
+     "count": 31,
+     "default_land_area": 105.0,
+     "default_floor_area": 95.0
+    },
+    "高塚新田": {
+     "alpha": 12.656289,
+     "count": 63,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "高柳新田": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "12217": {
+   "name": "柏市",
+   "available": true,
+   "alpha": 12.614998,
+   "count": 2449,
+   "default_land_area": 140.0,
+   "default_floor_area": 105.0,
+   "correction_town": {
+    "count": 2270,
+    "p10": 0.6988,
+    "p25": 0.8673,
+    "p50": 1.0295,
+    "p75": 1.1968,
+    "p90": 1.3637
+   },
+   "correction_city": {
+    "count": 2449,
+    "p10": 0.6315,
+    "p25": 0.7912,
+    "p50": 0.999,
+    "p75": 1.2554,
+    "p90": 1.5736
+   },
+   "towns": {
+    "あかね町": {
+     "alpha": 12.701902,
+     "count": 17,
+     "default_land_area": 145.0,
+     "default_floor_area": 100.0
+    },
+    "あけぼの": {
+     "alpha": 13.053359,
+     "count": 22,
+     "default_land_area": 117.5,
+     "default_floor_area": 102.5
+    },
+    "かやの町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "しいの木台": {
+     "alpha": 12.48287,
+     "count": 33,
+     "default_land_area": 155.0,
+     "default_floor_area": 105.0
+    },
+    "つくしが丘": {
+     "alpha": 12.939278,
+     "count": 25,
+     "default_land_area": 170.0,
+     "default_floor_area": 110.0
+    },
+    "ひばりが丘": {
+     "alpha": 12.759542,
+     "count": 12,
+     "default_land_area": 122.5,
+     "default_floor_area": 100.0
+    },
+    "みどり台": {
+     "alpha": 12.435135,
+     "count": 65,
+     "default_land_area": 145.0,
+     "default_floor_area": 105.0
+    },
+    "中原": {
+     "alpha": 12.543843,
+     "count": 17,
+     "default_land_area": 120.0,
+     "default_floor_area": 95.0
+    },
+    "中央": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "中央町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "中新宿": {
+     "alpha": 12.534139,
+     "count": 24,
+     "default_land_area": 115.0,
+     "default_floor_area": 97.5
+    },
+    "亀甲台町": {
+     "alpha": 12.450446,
+     "count": 13,
+     "default_land_area": 130.0,
+     "default_floor_area": 100.0
+    },
+    "五條谷": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "今谷上町": {
+     "alpha": 12.926342,
+     "count": 28,
+     "default_land_area": 130.0,
+     "default_floor_area": 102.5
+    },
+    "今谷南町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "伊勢原": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "光ケ丘": {
+     "alpha": 12.384373,
+     "count": 26,
+     "default_land_area": 137.5,
+     "default_floor_area": 105.0
+    },
+    "八幡町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "加賀": {
+     "alpha": 12.7903,
+     "count": 38,
+     "default_land_area": 160.0,
+     "default_floor_area": 115.0
+    },
+    "北柏": {
+     "alpha": 12.870218,
+     "count": 16,
+     "default_land_area": 242.5,
+     "default_floor_area": 180.0
+    },
+    "北柏台": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "十余二": {
+     "alpha": 12.785993,
+     "count": 31,
+     "default_land_area": 130.0,
+     "default_floor_area": 105.0
+    },
+    "千代田": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "南増尾": {
+     "alpha": 12.339221,
+     "count": 87,
+     "default_land_area": 125.0,
+     "default_floor_area": 100.0
+    },
+    "南柏": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "南逆井": {
+     "alpha": 12.357834,
+     "count": 106,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    },
+    "南高柳": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "吉野沢": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "名戸ケ谷": {
+     "alpha": 12.511849,
+     "count": 11,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "向原町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "塚崎": {
+     "alpha": 12.271884,
+     "count": 44,
+     "default_land_area": 157.5,
+     "default_floor_area": 100.0
+    },
+    "増尾": {
+     "alpha": 12.502523,
+     "count": 61,
+     "default_land_area": 140.0,
+     "default_floor_area": 100.0
+    },
+    "増尾台": {
+     "alpha": 12.573397,
+     "count": 45,
+     "default_land_area": 145.0,
+     "default_floor_area": 105.0
+    },
+    "大井": {
+     "alpha": 12.285677,
+     "count": 17,
+     "default_land_area": 190.0,
+     "default_floor_area": 120.0
+    },
+    "大塚町": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大室": {
+     "alpha": 12.749968,
+     "count": 74,
+     "default_land_area": 157.5,
+     "default_floor_area": 105.0
+    },
+    "大山台": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大島田": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大津ケ丘": {
+     "alpha": 12.285229,
+     "count": 32,
+     "default_land_area": 225.0,
+     "default_floor_area": 142.5
+    },
+    "大青田": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "宿連寺": {
+     "alpha": 12.355532,
+     "count": 15,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    },
+    "富里": {
+     "alpha": 13.165889,
+     "count": 11,
+     "default_land_area": 135.0,
+     "default_floor_area": 110.0
+    },
+    "小青田": {
+     "alpha": 12.991124,
+     "count": 19,
+     "default_land_area": 165.0,
+     "default_floor_area": 110.0
+    },
+    "岩井": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "布施": {
+     "alpha": 12.429961,
+     "count": 22,
+     "default_land_area": 145.0,
+     "default_floor_area": 105.0
+    },
+    "布施新町": {
+     "alpha": 12.37287,
+     "count": 36,
+     "default_land_area": 195.0,
+     "default_floor_area": 125.0
+    },
+    "常盤台": {
+     "alpha": 12.66802,
+     "count": 16,
+     "default_land_area": 132.5,
+     "default_floor_area": 100.0
+    },
+    "弥生町": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "戸張": {
+     "alpha": 12.358061,
+     "count": 34,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    },
+    "手賀の杜": {
+     "alpha": 12.416541,
+     "count": 42,
+     "default_land_area": 170.0,
+     "default_floor_area": 105.0
+    },
+    "新富町": {
+     "alpha": 12.835475,
+     "count": 25,
+     "default_land_area": 125.0,
+     "default_floor_area": 100.0
+    },
+    "新柏": {
+     "alpha": 12.948262,
+     "count": 16,
+     "default_land_area": 152.5,
+     "default_floor_area": 105.0
+    },
+    "新逆井": {
+     "alpha": 12.333087,
+     "count": 18,
+     "default_land_area": 127.5,
+     "default_floor_area": 95.0
+    },
+    "日立台": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "旭町": {
+     "alpha": 12.995586,
+     "count": 31,
+     "default_land_area": 130.0,
+     "default_floor_area": 110.0
+    },
+    "明原": {
+     "alpha": 13.273797,
+     "count": 16,
+     "default_land_area": 142.5,
+     "default_floor_area": 122.5
+    },
+    "末広町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "東": {
+     "alpha": 12.787888,
+     "count": 14,
+     "default_land_area": 145.0,
+     "default_floor_area": 142.5
+    },
+    "東上町": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "東中新宿": {
+     "alpha": 12.47915,
+     "count": 29,
+     "default_land_area": 120.0,
+     "default_floor_area": 95.0
+    },
+    "東台本町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "東山": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "東柏": {
+     "alpha": 12.430695,
+     "count": 21,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "東逆井": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "松ケ崎": {
+     "alpha": 12.520629,
+     "count": 69,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "松葉町": {
+     "alpha": 12.707803,
+     "count": 29,
+     "default_land_area": 185.0,
+     "default_floor_area": 115.0
+    },
+    "柏": {
+     "alpha": 12.762209,
+     "count": 77,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    },
+    "柏の葉": {
+     "alpha": 13.052958,
+     "count": 24,
+     "default_land_area": 165.0,
+     "default_floor_area": 107.5
+    },
+    "柏インター南": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "根戸": {
+     "alpha": 12.541769,
+     "count": 35,
+     "default_land_area": 135.0,
+     "default_floor_area": 110.0
+    },
+    "桜台": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "正連寺": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "永楽台": {
+     "alpha": 12.489808,
+     "count": 23,
+     "default_land_area": 125.0,
+     "default_floor_area": 95.0
+    },
+    "泉町": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "篠籠田": {
+     "alpha": 12.771939,
+     "count": 88,
+     "default_land_area": 130.0,
+     "default_floor_area": 105.0
+    },
+    "緑ケ丘": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "緑台": {
+     "alpha": null,
+     "count": 8,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "船戸": {
+     "alpha": 12.835066,
+     "count": 38,
+     "default_land_area": 160.0,
+     "default_floor_area": 107.5
+    },
+    "花野井": {
+     "alpha": 12.509763,
+     "count": 91,
+     "default_land_area": 175.0,
+     "default_floor_area": 120.0
+    },
+    "若柴": {
+     "alpha": 13.11722,
+     "count": 32,
+     "default_land_area": 145.0,
+     "default_floor_area": 107.5
+    },
+    "若葉町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "藤ケ谷": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "藤ケ谷新田": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "藤心": {
+     "alpha": 12.407708,
+     "count": 32,
+     "default_land_area": 122.5,
+     "default_floor_area": 95.0
+    },
+    "西原": {
+     "alpha": 12.708778,
+     "count": 58,
+     "default_land_area": 120.0,
+     "default_floor_area": 100.0
+    },
+    "西山": {
+     "alpha": 12.33956,
+     "count": 17,
+     "default_land_area": 170.0,
+     "default_floor_area": 125.0
+    },
+    "西柏台": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "西町": {
+     "alpha": 12.72948,
+     "count": 17,
+     "default_land_area": 130.0,
+     "default_floor_area": 100.0
+    },
+    "豊上町": {
+     "alpha": 12.922852,
+     "count": 13,
+     "default_land_area": 165.0,
+     "default_floor_area": 120.0
+    },
+    "豊住": {
+     "alpha": 12.76191,
+     "count": 28,
+     "default_land_area": 135.0,
+     "default_floor_area": 110.0
+    },
+    "豊四季": {
+     "alpha": 12.730752,
+     "count": 108,
+     "default_land_area": 125.0,
+     "default_floor_area": 105.0
+    },
+    "豊四季台": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "豊平町": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "豊町": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "逆井": {
+     "alpha": 12.37933,
+     "count": 50,
+     "default_land_area": 145.0,
+     "default_floor_area": 97.5
+    },
+    "逆井藤ノ台": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "酒井根": {
+     "alpha": 12.452425,
+     "count": 61,
+     "default_land_area": 140.0,
+     "default_floor_area": 100.0
+    },
+    "関場町": {
+     "alpha": 12.394204,
+     "count": 10,
+     "default_land_area": 172.5,
+     "default_floor_area": 110.0
+    },
+    "青葉台": {
+     "alpha": 12.448207,
+     "count": 20,
+     "default_land_area": 130.0,
+     "default_floor_area": 102.5
+    },
+    "風早": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "高南台": {
+     "alpha": 12.692688,
+     "count": 20,
+     "default_land_area": 132.5,
+     "default_floor_area": 105.0
+    },
+    "高柳": {
+     "alpha": 12.503869,
+     "count": 52,
+     "default_land_area": 130.0,
+     "default_floor_area": 100.0
+    },
+    "高柳新田": {
+     "alpha": null,
+     "count": 4,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "高田": {
+     "alpha": 12.503033,
+     "count": 69,
+     "default_land_area": 130.0,
+     "default_floor_area": 105.0
+    },
+    "鷲野谷": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "12220": {
+   "name": "流山市",
+   "available": true,
+   "alpha": 12.91217,
+   "count": 957,
+   "default_land_area": 145.0,
+   "default_floor_area": 110.0,
+   "correction_town": {
+    "count": 874,
+    "p10": 0.7588,
+    "p25": 0.8699,
+    "p50": 1.0019,
+    "p75": 1.1527,
+    "p90": 1.337
+   },
+   "correction_city": {
+    "count": 957,
+    "p10": 0.6635,
+    "p25": 0.799,
+    "p50": 0.9972,
+    "p75": 1.2688,
+    "p90": 1.5143
+   },
+   "towns": {
+    "おおたかの森北": {
+     "alpha": 13.32833,
+     "count": 56,
+     "default_land_area": 140.0,
+     "default_floor_area": 105.0
+    },
+    "おおたかの森南": {
+     "alpha": 13.425336,
+     "count": 26,
+     "default_land_area": 147.5,
+     "default_floor_area": 105.0
+    },
+    "おおたかの森東": {
+     "alpha": 13.29141,
+     "count": 24,
+     "default_land_area": 147.5,
+     "default_floor_area": 115.0
+    },
+    "おおたかの森西": {
+     "alpha": 13.49036,
+     "count": 12,
+     "default_land_area": 147.5,
+     "default_floor_area": 107.5
+    },
+    "こうのす台": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "三輪野山": {
+     "alpha": 12.821979,
+     "count": 24,
+     "default_land_area": 150.0,
+     "default_floor_area": 115.0
+    },
+    "前ケ崎": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "前平井": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "加": {
+     "alpha": 12.830166,
+     "count": 24,
+     "default_land_area": 135.0,
+     "default_floor_area": 112.5
+    },
+    "南流山": {
+     "alpha": 13.222707,
+     "count": 45,
+     "default_land_area": 120.0,
+     "default_floor_area": 110.0
+    },
+    "古間木": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "名都借": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "向小金": {
+     "alpha": 12.831912,
+     "count": 55,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "大字三輪野山": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大字上新宿": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大字下花輪": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大字中野久木": {
+     "alpha": null,
+     "count": 9,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大字平方": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大字木": {
+     "alpha": 13.057928,
+     "count": 12,
+     "default_land_area": 137.5,
+     "default_floor_area": 107.5
+    },
+    "大字東深井": {
+     "alpha": 12.581864,
+     "count": 90,
+     "default_land_area": 150.0,
+     "default_floor_area": 110.0
+    },
+    "大字流山": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "大字西平井": {
+     "alpha": 12.937775,
+     "count": 20,
+     "default_land_area": 115.0,
+     "default_floor_area": 102.5
+    },
+    "大字西深井": {
+     "alpha": 12.568267,
+     "count": 10,
+     "default_land_area": 195.0,
+     "default_floor_area": 175.0
+    },
+    "大字鰭ケ崎": {
+     "alpha": 12.939133,
+     "count": 18,
+     "default_land_area": 112.5,
+     "default_floor_area": 97.5
+    },
+    "宮園": {
+     "alpha": 13.091688,
+     "count": 11,
+     "default_land_area": 175.0,
+     "default_floor_area": 135.0
+    },
+    "富士見台": {
+     "alpha": 12.644296,
+     "count": 19,
+     "default_land_area": 160.0,
+     "default_floor_area": 115.0
+    },
+    "市野谷": {
+     "alpha": 13.159925,
+     "count": 11,
+     "default_land_area": 145.0,
+     "default_floor_area": 110.0
+    },
+    "平和台": {
+     "alpha": 13.024036,
+     "count": 35,
+     "default_land_area": 175.0,
+     "default_floor_area": 110.0
+    },
+    "後平井": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "思井": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "木": {
+     "alpha": 12.995052,
+     "count": 17,
+     "default_land_area": 140.0,
+     "default_floor_area": 105.0
+    },
+    "東初石": {
+     "alpha": 12.857753,
+     "count": 36,
+     "default_land_area": 147.5,
+     "default_floor_area": 110.0
+    },
+    "松ケ丘": {
+     "alpha": 12.868333,
+     "count": 58,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "江戸川台東": {
+     "alpha": 12.788446,
+     "count": 35,
+     "default_land_area": 280.0,
+     "default_floor_area": 135.0
+    },
+    "江戸川台西": {
+     "alpha": 12.79608,
+     "count": 41,
+     "default_land_area": 190.0,
+     "default_floor_area": 115.0
+    },
+    "流山": {
+     "alpha": 12.939513,
+     "count": 13,
+     "default_land_area": 125.0,
+     "default_floor_area": 100.0
+    },
+    "美原": {
+     "alpha": 12.674769,
+     "count": 21,
+     "default_land_area": 135.0,
+     "default_floor_area": 105.0
+    },
+    "美田": {
+     "alpha": 12.990873,
+     "count": 13,
+     "default_land_area": 200.0,
+     "default_floor_area": 120.0
+    },
+    "若葉台": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "西初石": {
+     "alpha": 12.964499,
+     "count": 48,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    },
+    "西平井": {
+     "alpha": null,
+     "count": 7,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "西松ケ丘": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "野々下": {
+     "alpha": 12.831074,
+     "count": 57,
+     "default_land_area": 140.0,
+     "default_floor_area": 110.0
+    },
+    "長崎": {
+     "alpha": null,
+     "count": 3,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "青田": {
+     "alpha": null,
+     "count": 2,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "駒木": {
+     "alpha": 12.901714,
+     "count": 26,
+     "default_land_area": 140.0,
+     "default_floor_area": 105.0
+    },
+    "駒木台": {
+     "alpha": null,
+     "count": 6,
+     "default_land_area": null,
+     "default_floor_area": null
+    },
+    "鰭ケ崎": {
+     "alpha": 12.918238,
+     "count": 17,
+     "default_land_area": 135.0,
+     "default_floor_area": 100.0
+    }
+   }
+  }
+ }
+}

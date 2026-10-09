@@ -1,0 +1,99 @@
+{
+ "schema_version": 2,
+ "is_sample": false,
+ "generated_at": "fixture",
+ "data_period": {
+  "from": "2023Q1",
+  "to": "2026Q2"
+ },
+ "params": {
+  "coef": {
+   "log_land": 0.236389,
+   "log_floor": -0.150003,
+   "age10": -0.127775,
+   "age10_sq": 0.037344,
+   "time": -0.037293
+  },
+  "clamp": {
+   "land_area": [
+    110.2,
+    133.8
+   ],
+   "floor_area": [
+    90.0,
+    110.0
+   ],
+   "age": [
+    10,
+    29
+   ]
+  },
+  "range_percentiles": {
+   "normal": [
+    25,
+    75
+   ],
+   "wide": [
+    10,
+    90
+   ]
+  },
+  "rounding_yen": 100000
+ },
+ "cities": {
+  "99901": {
+   "name": "テスト市",
+   "available": true,
+   "alpha": 16.557087,
+   "count": 25,
+   "default_land_area": 122.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 20,
+    "p10": 0.8146,
+    "p25": 0.8703,
+    "p50": 0.9628,
+    "p75": 1.1977,
+    "p90": 1.293
+   },
+   "correction_city": {
+    "count": 25,
+    "p10": 0.798,
+    "p25": 0.8704,
+    "p50": 0.9733,
+    "p75": 1.1971,
+    "p90": 1.2797
+   },
+   "towns": {
+    "テスト町A": {
+     "alpha": 16.559166,
+     "count": 20,
+     "default_land_area": 122.5,
+     "default_floor_area": 102.5
+    },
+    "テスト町B": {
+     "alpha": null,
+     "count": 5,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "99902": {
+   "name": "テスト過疎市",
+   "available": false,
+   "alpha": null,
+   "count": 0,
+   "default_land_area": null,
+   "default_floor_area": null,
+   "correction_town": {
+    "count": 0
+   },
+   "correction_city": {
+    "count": 0
+   },
+   "towns": {}
+  }
+ },
+ "_fixture": "TEST ONLY - 架空のテストデータ。本番に使用禁止"
+}

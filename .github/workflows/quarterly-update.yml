@@ -1,0 +1,73 @@
+# 四半期ごとのデータ更新（要件 Phase 3）。
+# 不動産情報ライブラリAPIを呼ぶのはこのワークフロー（とローカルのバッチ）だけ。サイトは静的な model.json だけを読む。
+# 事前準備：リポジトリの Settings → Secrets and variables → Actions に REINFOLIB_API_KEY を登録する。
+name: quarterly-update
+
+on:
+  schedule:
+    # 1月・4月・7月・10月の15日 03:00 JST（前四半期のデータ公開を待つ）
+    - cron: "0 18 14 1,4,7,10 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quarterly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install test dependency
+        run: pip install pytest==8.3.3
+
+      - name: Restore API cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: reinfolib-raw-${{ github.run_id }}
+          restore-keys: reinfolib-raw-
+
+      - name: Fetch (missing and recent quarters only)
+        env:
+          REINFOLIB_API_KEY: ${{ secrets.REINFOLIB_API_KEY }}
+        run: python -m batch.fetch
+
+      - name: Data profile
+        run: python -m batch.profile
+
+      - name: Backtest (fails the job if below the pass criterion)
+        run: python -m batch.backtest --strict
+
+      - name: Build model.json
+        run: python -m batch.build_model
+
+      - name: Tests
+        run: |
+          python -m pytest -q tests/py
+          npm test
+
+      - name: Commit updated model and reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/model.json reports/
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "Quarterly data update $(date -u +%Y-%m-%d)"
+            git push
+          fi

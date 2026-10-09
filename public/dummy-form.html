@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>査定フォーム（ダミー）</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <h1>既存の査定フォーム（ダミー）</h1>
+    <p class="notice">site-config.json の satei_form_url が未設定のため、このダミーページを表示しています。引き継がれたパラメータ：</p>
+    <pre id="params"></pre>
+  </main>
+  <script>
+    document.getElementById("params").textContent =
+      [...new URLSearchParams(location.search)].map(([k, v]) => `${k} = ${v}`).join("\n") || "（なし）";
+  </script>
+</body>
+</html>

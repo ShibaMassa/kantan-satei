@@ -1,0 +1,334 @@
+{
+ "schema_version": 2,
+ "is_sample": true,
+ "_notice": "UIプレビュー専用の架空データ。実在の相場ではない。本番表示・バックテストに使わないこと。",
+ "generated_at": "sample",
+ "data_period": {
+  "from": "2021Q1",
+  "to": "2021Q1"
+ },
+ "params": {
+  "coef": {
+   "log_land": 0.5,
+   "log_floor": 0.5,
+   "age10": -0.3,
+   "age10_sq": 0.02,
+   "time": 0.0
+  },
+  "clamp": {
+   "land_area": [
+    30,
+    1000
+   ],
+   "floor_area": [
+    30,
+    500
+   ],
+   "age": [
+    0,
+    60
+   ]
+  },
+  "range_percentiles": {
+   "normal": [
+    25,
+    75
+   ],
+   "wide": [
+    10,
+    90
+   ]
+  },
+  "rounding_yen": 100000
+ },
+ "cities": {
+  "12101": {
+   "name": "千葉市中央区",
+   "available": true,
+   "alpha": 13.0,
+   "count": 99,
+   "default_land_area": 100.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "correction_city": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "towns": {
+    "サンプルA町（町名データあり）": {
+     "alpha": 13.0,
+     "count": 99,
+     "default_land_area": 100.0,
+     "default_floor_area": 100.0
+    },
+    "サンプルB町（件数不足→市区で計算）": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "12102": {
+   "name": "千葉市花見川区",
+   "available": true,
+   "alpha": 13.0,
+   "count": 99,
+   "default_land_area": 100.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "correction_city": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "towns": {
+    "サンプルA町（町名データあり）": {
+     "alpha": 13.0,
+     "count": 99,
+     "default_land_area": 100.0,
+     "default_floor_area": 100.0
+    },
+    "サンプルB町（件数不足→市区で計算）": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "12106": {
+   "name": "千葉市美浜区",
+   "available": true,
+   "alpha": 13.0,
+   "count": 99,
+   "default_land_area": 100.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "correction_city": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "towns": {
+    "サンプルA町（町名データあり）": {
+     "alpha": 13.0,
+     "count": 99,
+     "default_land_area": 100.0,
+     "default_floor_area": 100.0
+    },
+    "サンプルB町（件数不足→市区で計算）": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "12204": {
+   "name": "船橋市",
+   "available": true,
+   "alpha": 13.0,
+   "count": 99,
+   "default_land_area": 100.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "correction_city": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "towns": {
+    "サンプルA町（町名データあり）": {
+     "alpha": 13.0,
+     "count": 99,
+     "default_land_area": 100.0,
+     "default_floor_area": 100.0
+    },
+    "サンプルB町（件数不足→市区で計算）": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "12207": {
+   "name": "松戸市",
+   "available": true,
+   "alpha": 13.0,
+   "count": 99,
+   "default_land_area": 100.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "correction_city": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "towns": {
+    "サンプルA町（町名データあり）": {
+     "alpha": 13.0,
+     "count": 99,
+     "default_land_area": 100.0,
+     "default_floor_area": 100.0
+    },
+    "サンプルB町（件数不足→市区で計算）": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "12217": {
+   "name": "柏市",
+   "available": true,
+   "alpha": 13.0,
+   "count": 99,
+   "default_land_area": 100.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "correction_city": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "towns": {
+    "サンプルA町（町名データあり）": {
+     "alpha": 13.0,
+     "count": 99,
+     "default_land_area": 100.0,
+     "default_floor_area": 100.0
+    },
+    "サンプルB町（件数不足→市区で計算）": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "12220": {
+   "name": "流山市",
+   "available": true,
+   "alpha": 13.0,
+   "count": 99,
+   "default_land_area": 100.0,
+   "default_floor_area": 100.0,
+   "correction_town": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "correction_city": {
+    "count": 99,
+    "p10": 0.7,
+    "p25": 0.85,
+    "p50": 1.0,
+    "p75": 1.15,
+    "p90": 1.3
+   },
+   "towns": {
+    "サンプルA町（町名データあり）": {
+     "alpha": 13.0,
+     "count": 99,
+     "default_land_area": 100.0,
+     "default_floor_area": 100.0
+    },
+    "サンプルB町（件数不足→市区で計算）": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  },
+  "99999": {
+   "name": "（サンプル）データ不足のエリア",
+   "available": false,
+   "alpha": null,
+   "count": 1,
+   "default_land_area": null,
+   "default_floor_area": null,
+   "correction_town": {
+    "count": 0
+   },
+   "correction_city": {
+    "count": 0
+   },
+   "towns": {
+    "サンプルC町": {
+     "alpha": null,
+     "count": 1,
+     "default_land_area": null,
+     "default_floor_area": null
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "_comment": "公開サイトの設定値。未決事項（ツール名・査定フォームURL・GA4測定ID）はここで変更する。",
+  "tool_name": "かんたん相場査定",
+  "satei_form_url": "",
+  "ga4_measurement_id": "",
+  "allow_sample_preview": false,
+  "_allow_sample_preview_comment": "true の間は public/model.json が無いときに「サンプルデータ」と明示したプレビューを表示する。本番公開前（Phase 3）に必ず false にする。",
+  "credit": {
+    "api_notice": "このサービスは、国土交通省の不動産情報ライブラリのAPI機能を使用していますが、提供情報の最新性、正確性、完全性等が保証されたものではありません",
+    "source": "出典：国土交通省　不動産情報ライブラリ",
+    "source_url": "https://www.reinfolib.mlit.go.jp/",
+    "processed_by": "「不動産取引価格情報」「成約価格情報」（国土交通省）を加工して作成",
+    "_processed_by_comment": "利用約款の出典記載：加工して利用する場合は、コンテンツの名称と加工したことを記載する。作成者名は任意のため省略（D-44）。"
+  }
+}

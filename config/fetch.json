@@ -1,0 +1,18 @@
+{
+  "_comment": "データ取得設定。仕様は https://www.reinfolib.mlit.go.jp/help/apiManual/xit001/ で確認済み（docs/decisions.md 参照）。",
+  "endpoint": "https://www.reinfolib.mlit.go.jp/ex-api/external/XIT001",
+  "api_key_header": "Ocp-Apim-Subscription-Key",
+  "api_key_env": "REINFOLIB_API_KEY",
+  "start_quarter": "2021Q1",
+  "end_quarter": "latest",
+  "price_classifications": ["01", "02"],
+  "transaction_price_extended_start": null,
+  "_transaction_price_extended_start_comment": "件数不足時のみ \"2015Q1\" のように指定すると、取引価格(01)だけ start_quarter より前にさかのぼって取得する。null で無効。",
+  "language": "ja",
+  "request_interval_sec": 1.5,
+  "max_retries": 5,
+  "backoff_base_sec": 2.0,
+  "timeout_sec": 60,
+  "refetch_recent_quarters": 2,
+  "_refetch_recent_quarters_comment": "直近N四半期は未公開・追加公開の可能性があるため、キャッシュがあっても再取得する。"
+}

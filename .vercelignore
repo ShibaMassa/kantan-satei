@@ -1,0 +1,5 @@
+# 許可リスト方式：公開サイト(public/)と設定(vercel.json)以外は Vercel にアップロードしない
+# （.env・data/・batch/・tests/ などが送られないようにする）
+/*
+!/public
+!/vercel.json
