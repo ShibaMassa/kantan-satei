@@ -276,3 +276,14 @@ D-37 を受けての決定。自社の成約データは各所に散らばって
 - APIの取得結果は actions/cache に保存し、リポジトリにはコミットしない。
 - **APIキーは GitHub の Secrets（`REINFOLIB_API_KEY`）にご自身で登録していただく**（私はAPIキーを外部サービスの入力欄に入力しない）。
 - Vercel 側でリポジトリを連携すれば、push のたびに自動で再デプロイされる。
+
+### D-47 確認用デプロイの結果（2026-10-09）
+- Vercel CLI 59.26.0 で、プロジェクト `kantan-satei` にプレビューとしてデプロイした（本番＝`--prod` は未実施）。
+  CLI 39.x は、2026-02-26 に廃止された GitHub ログイン方式を使っていてログインできなかったため、59.26.0 を使った。
+- プレビューには Vercel の Deployment Protection（標準）がかかっていて、Vercel にログインしたアカウントの持ち主以外はログイン画面にリダイレクトされる（302）。
+- 配信内容の確認には `vercel curl` を使った。その際 CLI が、プロジェクトに**デプロイ保護をバイパスするトークン**を自動で発行した
+  （Vercel の Project Settings → Deployment Protection で確認・削除できる）。
+- 確認結果：`/`・`/model.json`・`/site-config.json` は 200。`/.env`・`/data/raw/...`・`/batch/...`・`/config/...`・`/tests/...`・`/vercel.json` は 404。
+  `X-Robots-Tag: noindex, nofollow` が付いている。配信された model.json はローカルと同一。
+- `vercel git connect`（push のたびに自動デプロイ）は**まだ実行していない**。連携すると main への push が本番（公開URL）に自動デプロイされるため、
+  精密査定フォームの URL が決まって本公開するときに行う。
